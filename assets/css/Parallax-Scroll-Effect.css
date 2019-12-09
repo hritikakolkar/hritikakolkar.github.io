@@ -1,0 +1,50 @@
+#box-1 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(98,95,95,0.01),rgba(70,67,67,0.83)),url("/assets/img/whitecat-2.jpg?h=1362955173418fa7c2ee3493e1f0cac8");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+#box-2 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(98,95,95,0.01),rgba(70,67,67,0.83)),url("/assets/img/whitecat.jpg?h=de785ad1aa1f57e49ebbe3dfc78c9328");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+#box-3 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(50deg,rgba(99,10,59,0.77),rgba(29,4,64,0.78)),url("/assets/img/handcat.jpg?h=c30f906a36b9b0ab851e1c79307af63d");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: arial black;
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (min-width: 576px) {
+  #box-3 {
+    background-position: right;
+  }
+}
+
+@media (min-width: 300px) {
+  #box-3 {
+    background-position: right;
+  }
+}
+

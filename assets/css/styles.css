@@ -1,0 +1,121 @@
+.logo {
+  width: 70px;
+  padding-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-item {
+  background-color: rgba(255,255,255,0);
+  color: rgb(219,222,225);
+  border-right: 1px solid rgba(255,255,255,0.75);
+  border-radius: 0% 100% 10% 90% / 100% 0% 100% 0%;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  font-family: Courgette, cursive;
+  background-image: linear-gradient(to bottom,rgba(0,0,0,0.77),rgba(35,11,24,0.15));
+  /*position: sticky;*/
+  /*top: 0px;*/
+  z-index: 25;
+}
+
+@media (max-width: 576px) {
+  .navbar.navbar-light.navbar-expand-md {
+    font-family: Courgette, cursive;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.77),rgba(35,11,24,0.7));
+    /*position: sticky;*/
+    /*top: 0px;*/
+    z-index: 25;
+  }
+}
+
+.back-img {
+  background-image: linear-gradient(50deg,rgba(99,10,59,0.77),rgba(29,4,64,0.78)) ,url("/assets/img/main-page.jpeg?h=f2ef82d8c87ae6f3e03e7baf0f9c282a");
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: brightness(159%) invert(100%);
+  /*color: white;*/
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(31,13,29,0.98);
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 10% 90% 10% 90% / 100% 0% 100% 0%;
+  font-weight: 500;
+}
+
+.row {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.social-col {
+  max-width: 75px;
+}
+
+.social-icon {
+  color: white;
+  padding: 3px 5px;
+  font-size: xx-large;
+  border-radius: 3px;
+}
+
+.fa.fa-star.fa-github.social-icon:hover {
+  color: black;
+  font-size: 50px;
+  transition: all 700ms;
+  background-color: white;
+}
+
+.fa.fa-star.fa-instagram.social-icon:hover {
+  color: rgb(235,17,201);
+  font-size: 50px;
+  transition: all 700ms;
+  background-color: white;
+}
+
+.fa.fa-star.fa-linkedin.social-icon:hover {
+  color: rgb(22,148,240);
+  font-size: 50px;
+  transition: all 700ms;
+  background-color: white;
+}
+
+.fa.fa-envelope-square.social-icon:hover {
+  color: #D44638;
+  font-size: 50px;
+  transition: all 700ms;
+  background-color: white;
+}
+
+.container.text-center {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+}
+
+.nav.navbar-nav.text-center.shadow-sm.ml-auto {
+  font-family: Felipa, cursive;
+  /*color: rgba(255,255,255,0.55);*/
+  z-index: 20;
+}
+

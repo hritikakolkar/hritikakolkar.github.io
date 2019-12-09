@@ -1,0 +1,49 @@
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Felipa';
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 65px;
+  font-family: 'Felipa';
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-weight: 500;
+}
+
+.caption.v-middle.text-center {
+  width: 340px;
+  margin: 0 auto;
+}
+
